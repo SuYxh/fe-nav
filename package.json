@@ -1,0 +1,38 @@
+{
+  "name": "fe-nav",
+  "version": "1.0.0",
+  "description": "基于 VitePress 打造前端导航网站",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "prepare": "husky install",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuYxh/fe-nav.git"
+  },
+  "author": "大黄",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuYxh/fe-nav/issues"
+  },
+  "homepage": "https://github.com/SuYxh/fe-nav/#readme",
+  "devDependencies": {
+    "@mdit-vue/shared": "^0.12.0",
+    "@types/node": "^18.16.3",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "sass": "^1.58.3",
+    "vitepress": "1.0.0-alpha.48",
+    "vue": "^3.2.47"
+  },
+  "lint-staged": {
+    "*.{js,jsx,tsx,vue,css,scss,less,md,json}": [
+      "prettier --write"
+    ]
+  }
+}
