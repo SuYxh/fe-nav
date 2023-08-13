@@ -14,6 +14,7 @@ import icon from './icon';
 import study from './study';
 import community from './community';
 import rest from './rest';
+import design from './design';
 
 export type NavData = {
   title: string
@@ -45,6 +46,8 @@ export const NAV_DATA: NavData[] = [
   siteGenerator,
   // 图标库
   icon,
+  // 设计相关
+  design,
   // 前端学习资料
   study,
   // 社区

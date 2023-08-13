@@ -32,6 +32,12 @@ const data: NavData = {
       title: 'Json 中文网',
       desc: 'JSON 在线解析及格式化验证',
       link: 'https://www.json.cn'
+    },
+    {
+      icon: 'https://qn.huat.xyz/mac/202308131210426.jpeg',
+      title: 'convertio',
+      desc: '文件转换器',
+      link: 'https://convertio.co/zh/'
     }
   ]
 }
